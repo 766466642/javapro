@@ -14,14 +14,6 @@ public class MyBookMain {
     public static void main(String[] args) {
         inputData(list);
         menu();
-
-        /*
-        deleteName(list,"书名8");
-        print(list);
-        searchName(list,"书名9");
-        addBook(list);
-        print(list);
-        */
     }
     public static void menu(){
         System.out.println("输出菜单项请选择你要进行的操作（请输入1-4中的任一个数字）：");
